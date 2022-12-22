@@ -1,0 +1,81 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.center-content {
+    width:50%;
+    /* height:200px; */
+    position: relative;
+    left: 25%;
+    /* right: 50%%; */
+    /* margin-top: -100px;
+    margin-left: -100px; */
+    
+}
+
+.center-logo {
+    position: relative;
+    left: 40%;
+}
+
+
+.ukuran-image {
+    width: 100%;
+    display: none;
+    margin-bottom: 30px;
+}
+
+
+/* extra small devices (phones, 600px, and down)*/
+@media only screen and (max-width: 600px) {
+    .center-content {
+        width: 70%;
+        position: relative;
+        left: 15%;
+    }
+
+    .center-logo {
+        position: relative;
+        left: 10%;
+        width: 80%;
+    }
+}
+/* small devices (potrait tablets and large phones, 600px and ups) */
+@media only screen and (min-width: 600px ) {
+    .center-content {
+        width: 70%;
+        position: relative;
+        left: 15%;
+    }
+
+    .center-logo {
+        position: relative;
+        left: 10%;
+        width: 80%; }
+}
+
+@media only screen and (min-width: 768px ) {
+    .center-content {
+        width: 70%;
+        position: relative;
+        left: 15%;
+    }
+}
+
+@media only screen and (min-width: 992px ) {
+    .center-content {
+        width: 70%;
+        position: relative;
+        left: 15%;
+    }
+}
+
+@media only screen and (min-width: 1200px ) {
+    .center-content {
+        width: 50%;
+        position: relative;
+        left: 25%;
+    }
+}
